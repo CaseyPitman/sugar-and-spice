@@ -98,11 +98,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html,
+body {
+  background:rgb(255, 250, 205);
+}
 
+#hero {
+  margin:56px auto 0;
+  padding:0;
+  width:100%;
+  height:auto;
+  position:relative;
+}
 
+#home-hero-img{
+  width:100%;
+}
 
-.jumbotron {
-  padding-top:56px;
+#hero-logo{
+  position:absolute;
+  top:5%;
+  left:5%;
+  padding:0 5px 5px;
+  border-radius:5px;
+}
+
+.logo-title-text{
+  margin:0 auto;
+  font-size:5vw;
+}
+
+.logo-sub-text{
+  font-size:3vw;
 }
 
 
