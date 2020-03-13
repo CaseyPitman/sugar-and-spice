@@ -76,7 +76,7 @@
       </div>
     </div>
   </div>
-
+  <!--Services Section-->
   <div class="container-fluid bg-success">
     <h2 class="ml-3">Services</h2>
     <div class="row justify-content-around">
@@ -105,6 +105,7 @@
 
     </div>
   </div>
+  <!--Reviews Section-->
   <div class="container-fluid bg-warning">
     <div class="row">
       <div class=" col-sm-12 ml-3">
@@ -187,7 +188,8 @@
   </div>
 
   <!--FULL REVIEW MODALS-->
-  <!--Review 1 Modal-->
+  <div>
+    <!--Review 1 Modal-->
     <!--Modal Container-->
     <div class="modal fade" id="modal-review-1">
       <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
@@ -355,6 +357,7 @@
         </div>
       </div>
     </div>
+  </div>
      
   <!--Footer-->
   <div class="container-fluid bg-danger" id="footer">
@@ -369,10 +372,11 @@
         </p>
         <button class="btn btn-info" type="button" data-toggle="modal" data-target="#footer-contact-modal">Send us a note</button>
       </div>
-      <div id="social-media-container" class="col-sm-2">
-        <p id="social-media-icons" class="text-center">
-          FB   IG
-        </p>
+      <div id="social-media-container" class="col-sm-2 text-center">
+        
+          <i class="fab fa-facebook-square sm-icons"></i>
+          <i class="fab fa-instagram sm-icons"></i>
+      
       </div>
       <div id="footer-img-container" class="col-sm-5">
         <img id="footer-img" class="img img-fluid d-block float-md-right" src="img/footer-spread.jpg" alt="Footer Image">
@@ -388,20 +392,41 @@
             <h2>How can we help you?</h2>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
-          <div class="modal-body">
-            The contact form will go here
-
-
-
-          </div>
+          <!--Form-->
+          <form action="" method="POST">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
+                    <label for="_replyto">Email</label>
+                    <input type="email" class="form-control" id="_replyto" placeholder="email@address.com" name="_replyto" required>
+                  </div>
+                  <div class="col">
+                    <label for="number-of-guests">Estimated Number of Guests</label>
+                    <input type="number" class="form-control" id="number-of-guests" name="number-of-guests" min="1" placeholder="Guests">
+                    <label for="event-date">Date of Event</label>
+                    <input type="date" class="form-control" id="event-date" name="event-date" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                  <label for ="about-event">Tell Us About Your Event</label>
+                  <textarea rows="5" class="form-control" id="about-event" name="about-event" placeholder="Questions? Special requests? Let us know what you need."></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="submit" class="btn btn-info" value="Submit">Submit</button>
           </div>
+        </form>
         </div>
       </div>
-  </div>
+    </div>
 
-
+  <!--JAVASCRIPT-->
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
