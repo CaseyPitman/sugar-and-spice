@@ -64,7 +64,7 @@
 
   <!--About Section-->
   <div id="about" class="container bg-info">
-    <h2 class="ml-3">My Story</h2>
+    <h2 class="script-text ml-3">My Story</h2>
     <div class="row">
       <div class ="col-sm-6">
         <div class="ml-3">
@@ -82,7 +82,7 @@
   </div>
   <!--Services Section-->
   <div id="services" class="container bg-success">
-    <h2 class="ml-3">Services</h2>
+    <h2 class="script-text ml-3">Services</h2>
     <div class="row justify-content-around">
       <div class="col-sm-6">
         <p class="ml-3">
@@ -110,86 +110,118 @@
     </div>
   </div>
   <!--Reviews Section-->
-  <div id="reviews"class="container bg-warning">
+  <div id="reviews"class="container">
     <div class="row">
       <div class=" col-sm-12 ml-3">
-        <h2 >Rave Reviews</h2>
+        <h2 class="script-text">Reviews</h2>
       </div>
     </div>
-    <div id="review-1" class="row mx-auto"> <!--Row 1-->
-      <div class="col-sm-4">
-        <p class="review-quote">
+    
+
+
+ <!--Carousel for review quotes-->
+
+<div id="review-carousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#review-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#review-carousel" data-slide-to="1"></li>
+    <li data-target="#review-carousel" data-slide-to="2"></li>
+    <li data-target="#review-carousel" data-slide-to="3"></li>
+    <li data-target="#review-carousel" data-slide-to="4"></li>
+    <li data-target="#review-carousel" data-slide-to="5"></li>
+  </ul>
+
+<!--Slide show-->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="review-quote d-block w-50 mx-auto">
+        <p>
           <i class="fas fa-quote-left"></i>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <i class="fas fa-quote-right"></i>
-          <br>
           <p class="quote-attribute">-Harry Bosch</p>
           <button class="btn btn-info btn-sm" type="button" data-toggle="modal" data-target="#modal-review-1">Read More</button>
         </p>
       </div>
-
-      <div class="col-sm-4">
-        <p class="review-quote">
+      
+    </div>
+    <div class="carousel-item">
+      <div class="review-quote d-block w-50 mx-auto">
+        <p>
           <i class="fas fa-quote-left"></i>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <i class="fas fa-quote-right"></i>
-          <br>
           <p class="quote-attribute">-Harry Bosch</p>
           <button class="btn btn-info btn-sm" type="button" data-toggle="modal" data-target="#modal-review-2">Read More</button>
         </p>
       </div>
-      <div class="col-sm-4">
-        <p class="review-quote">
+    </div>
+    <div class="carousel-item">
+      <div class="review-quote d-block w-50 mx-auto">
+        <p>
           <i class="fas fa-quote-left"></i>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <i class="fas fa-quote-right"></i>
-          <br>
           <p class="quote-attribute">-Harry Bosch</p>
           <button class="btn btn-info btn-sm" type="button" data-toggle="modal" data-target="#modal-review-3">Read More</button>
         </p>
       </div>
-    </div> 
-    <!--End Row 1-->
-    <div class="row mx-auto"> <!--Row 2-->
-      <div class="col-sm-4">
-        <p class="review-quote">
+    </div>
+    <div class="carousel-item">
+      <div class="review-quote d-block w-50 mx-auto">
+        <p>
           <i class="fas fa-quote-left"></i>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <i class="fas fa-quote-right"></i>
-          <br>
           <p class="quote-attribute">-Harry Bosch</p>
           <button class="btn btn-info btn-sm" type="button" data-toggle="modal" data-target="#modal-review-4">Read More</button>
         </p>
       </div>
-
-      <div class="col-sm-4">
-        <p class="review-quote">
+    </div>
+    <div class="carousel-item">
+      <div class="review-quote d-block w-50 mx-auto">
+        <p>
           <i class="fas fa-quote-left"></i>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          5 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <i class="fas fa-quote-right"></i>
-          <br>
           <p class="quote-attribute">-Harry Bosch</p>
           <button class="btn btn-info btn-sm" type="button" data-toggle="modal" data-target="#modal-review-5">Read More</button>
         </p>
       </div>
-      <div class="col-sm-4">
-        <p class="review-quote">
+    </div>
+    <div class="carousel-item">
+      <div class="review-quote d-block w-50 mx-auto">
+        <p>
           <i class="fas fa-quote-left"></i>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          6 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <i class="fas fa-quote-right"></i>
-          <br>
           <p class="quote-attribute">-Harry Bosch</p>
           <button class="btn btn-info btn-sm" type="button" data-toggle="modal" data-target="#modal-review-6">Read More</button>
         </p>
       </div>
-    </div> <!--End Row 2-->
+    </div>
   </div>
+
+  <!--Left and Right Controls-->
+  <a class="carousel-control-prev" href="#review-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#review-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
 
   <!--FULL REVIEW MODALS-->
   <div>
@@ -362,6 +394,7 @@
       </div>
     </div>
   </div>
+  </div>
      
   <!--Footer-->
   <div class="container bg-danger" id="footer">
@@ -426,6 +459,7 @@
         </div>
       </div>
     </div>
+  </div>
 
   <!--JAVASCRIPT-->
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
