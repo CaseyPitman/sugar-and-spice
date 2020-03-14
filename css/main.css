@@ -101,6 +101,7 @@ textarea {
 html,
 body {
   background:rgb(255, 250, 205);
+  font-family: 'Raleway', sans-serif;
 }
 
 #hero {
@@ -121,17 +122,22 @@ body {
   left:5%;
   padding:0 5px 5px;
   border-radius:5px;
+
 }
 
 .logo-title-text{
   margin:0 auto;
-  font-size:5vw;
+  font-size:8vw;
 }
 
 .logo-sub-text{
-  font-size:3vw;
+  font-size:5vw;
+  margin-top:-5px;
 }
 
+.script-text{
+  font-family: 'Great Vibes', cursive;
+}
 
 
 
