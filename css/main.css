@@ -100,7 +100,8 @@ textarea {
 
 html,
 body {
-  background:rgb(255, 250, 205);
+ /* background:#fffacd;*/
+ background-image: url(../img/background-paper.png);
 }
 
 #hero {
@@ -138,6 +139,10 @@ body {
   font-family: 'Great Vibes', cursive;
 }
 
+.yellow-text{
+  color:yellow;
+}
+
 #reviews{
   background:gray;
   padding-bottom: 25px;
@@ -146,6 +151,29 @@ body {
 .carousel-inner{
   width:100%;
   height:100%;
+}
+
+.modal-content {
+ /* background-color:rgb(255, 250, 205);*/
+ background-image: url(../img/background-paper.png);
+}
+
+.modal{
+  background:rgba(33, 37, 41, 0.7);
+}
+
+.sm-icons{
+  font-size:2vw;
+}
+
+#modal-form-title{
+  font-size:32px;
+  margin:15px auto;
+}
+
+.modal-form-label{
+  font-size:24px;
+  margin:10px 0;
 }
 
 
