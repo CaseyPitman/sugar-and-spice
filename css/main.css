@@ -7,7 +7,11 @@ html {
 body {
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  background-image: url(../img/background-paper.png);
+  /*background-image: url(../img/background-paper.png);*/
+}
+
+.dark-text {
+  color: #143852;
 }
 
 .light-text {
@@ -81,17 +85,27 @@ body {
 
 /*Home About Section*/
 #about {
-  background: gray;
+  background-color: rgba(255, 207, 69, 0.25);
+  border-bottom: 1px solid #143852;
   padding-bottom: 25px;
   height: auto;
+  scroll-margin-top: 56px;
 }
 
 /*Home Services*/
+#services {
+  background-color: rgba(255, 207, 69, 0.25);
+  scroll-margin-top: 56px;
+}
+
 /*Home Reviews*/
 #reviews {
-  background: gray;
+  background: rgba(255, 207, 69, 0.25);
+  border-bottom: 1px solid #143852;
+  border-top: 1px solid #143852;
   padding-bottom: 25px;
   height: auto;
+  scroll-margin-top: 56px;
 }
 
 .carousel-inner {
@@ -109,6 +123,10 @@ body {
 }
 
 /*Footer*/
+#footer {
+  background-color: #143852;
+}
+
 .sm-icons {
   font-size: 2vw;
 }

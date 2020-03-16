@@ -1,11 +1,13 @@
 /*Define color palette variables*/
 
-$darkblue: rgb(20,56,82);
+$darkblue: rgb(20, 56, 82);
 $mediumblue:rgb(51,161,189);
 $cream:rgb(255,255,204);
 $gold:rgb(255,207,69);
+$backgroundgold:rgba(255,207,69,0.25);
 $brown:rgb(99,62,28);
 $grey:rgb(183,191,201);
+$lightblue:rgb(195,219,244);
 
 /*Global*/
 html{
@@ -15,9 +17,12 @@ html{
 body {
  width:100%;
  font-family: 'Raleway', sans-serif;
- background-image: url(../img/background-paper.png);
+ /*background-image: url(../img/background-paper.png);*/
+ 
 }
-
+.dark-text{
+    color:$darkblue;
+}
 .light-text {
     color:$grey;
 }
@@ -29,7 +34,6 @@ body {
     color:$gold;
   }
   
-
 /*Navbar*/
 
 .navbar{
@@ -92,21 +96,27 @@ padding:5px;
 /*Home About Section*/
 
 #about{
-  background:gray;
+  background-color:$backgroundgold;
+  border-bottom:1px solid $darkblue;
   padding-bottom: 25px;
   height:auto;
+  scroll-margin-top:56px;
 }
 
 /*Home Services*/
 #services{
-
+  background-color:$backgroundgold;
+  scroll-margin-top:56px;
 }
 
 /*Home Reviews*/
 #reviews{
-    background:gray;
+    background:$backgroundgold;
+    border-bottom:1px solid $darkblue;
+    border-top:1px solid $darkblue;
     padding-bottom: 25px;
     height:auto;
+    scroll-margin-top:56px;
   }
 .carousel-inner{
   width:100%;
@@ -124,6 +134,10 @@ padding:5px;
 
 
 /*Footer*/
+#footer{
+    background-color:$darkblue;
+}
+
 
 .sm-icons{
   font-size:2vw;
