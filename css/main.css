@@ -27,11 +27,12 @@ body {
 }
 
 .body-text {
-  font-size: 18px;
+  font-size: 20px;
+  color: #143852;
 }
 
 .title-text {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 /*Navbar*/
@@ -53,7 +54,7 @@ body {
 
 .nav-item:hover,
 .navbar-brand:hover {
-  background-color: #33a1bd;
+  background-color: rgba(51, 161, 189, 0.75);
 }
 
 .navbar-brand {
@@ -97,15 +98,24 @@ body {
   border-bottom: 1px solid #143852;
   border-top: 1px solid #143852;
   padding-bottom: 25px;
-  height: 100vh;
-  scroll-margin-top: 54px;
+  height: auto;
+  /*scroll-margin-top:54px;*/
 }
 
 /*Home Services*/
 #services {
-  background-color: rgba(255, 207, 69, 0.25);
-  scroll-margin-top: 55px;
-  height: 100vh;
+  background-color: #c3dbf4;
+  /*scroll-margin-top:55px;*/
+  height: auto;
+}
+
+#menu-link-btn {
+  background-color: #143852;
+  color: gold;
+}
+
+#menu-link-btn:hover {
+  background: rgba(20, 56, 82, 0.75);
 }
 
 /*Home Reviews*/
@@ -116,7 +126,7 @@ body {
   padding-bottom: 25px;
   height: auto;
   scroll-margin-top: 55px;
-  height: 100vh;
+  height: auto;
 }
 
 .carousel-inner {
@@ -136,7 +146,7 @@ body {
 /*Footer*/
 #footer {
   background-color: #143852;
-  height: 100vh;
+  height: auto;
 }
 
 .sm-icons {
