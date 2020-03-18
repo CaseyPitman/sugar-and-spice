@@ -35,6 +35,11 @@ body {
   font-size: 4rem;
 }
 
+.btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 /*Navbar*/
 .navbar {
   background-color: #143852;
@@ -111,11 +116,11 @@ body {
 
 #menu-link-btn {
   background-color: #143852;
-  color: gold;
+  color: #c3dbf4;
 }
 
 #menu-link-btn:hover {
-  background: rgba(20, 56, 82, 0.75);
+  color: #c3dbf4;
 }
 
 /*Home Reviews*/
@@ -146,17 +151,25 @@ body {
 
 .review-btn {
   background-color: #143852;
-  color: #ffcf45;
+  color: #c3dbf4;
 }
 
 .review-btn:hover {
-  background: rgba(20, 56, 82, 0.75);
-  color: #ffcf45;
+  color: lightblue;
 }
 
 .modal-review-title,
 .modal-review-attribute {
   font-size: 28px;
+}
+
+.review-modal-close-btn {
+  background-color: #143852;
+  color: #c3dbf4;
+}
+
+.review-modal-close-btn:hover {
+  color: lightblue;
 }
 
 /*Global Modal Styles*/
@@ -172,11 +185,25 @@ body {
 /*Footer*/
 #footer {
   background-color: #143852;
-  height: auto;
+  height: 100vh;
+}
+
+.footer-text {
+  font-size: 20px;
+}
+
+#footer-button {
+  background-color: #c3dbf4;
 }
 
 .sm-icons {
-  font-size: 2vw;
+  font-size: 40px;
+}
+
+.sm-icons:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
 }
 
 #modal-form-title {
