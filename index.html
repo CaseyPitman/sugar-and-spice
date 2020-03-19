@@ -72,9 +72,11 @@
     
       <h2 class="text-center pt-5 dark-text title-text script-text">My Story</h2>
     
-    <div class="row py-5">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-4">
+    <div class="row py-5 ">
+      
+    <div class="col-sm-1"></div>
+      
+      <div class="col-sm-5">
         <div class="body-text">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -83,10 +85,11 @@
           </p>
         </div>
       </div>
-      <div class="col-sm-2"></div>
+     <div class="col-sm-2"></div>
       <div class="col-sm-4">
         <img class="img img-fluid mx-auto d-block" src="img/placeholder.jpg" alt="Portrait">
       </div>
+      
     </div>
   </div>
 
@@ -133,7 +136,7 @@
   
   
  <!--Carousel for review quotes-->
-  <div id="review-carousel" class="pt-5 carousel slide" data-ride="carousel" data-interval="7000">
+  <div id="review-carousel" class="my-5 carousel slide" data-ride="carousel" data-interval="7000">
     <!--Slide show-->
     <div class="carousel-inner body-text">
       <div class="carousel-item active">
@@ -488,23 +491,28 @@
      
   <!--Footer-->
   <div class="container-fluid py-5" id="footer">
-    <div class="text-center"
-      <div id="contact-info" class="col-sm-4 ml-5">
-        <h2 class="yellow-text title-text py-5 script-text">Get in touch</h2>
-        <p class="yellow-text footer-text">
+     <h2 class="yellow-text title-text text-center script-text pt-5">Get in touch</h2>
+      <div class="row py-5">
+     
+        <div id="contact-info" class="col-sm-4 text-center">
+          <p class="yellow-text footer-text">
             Sugar & Spice Catering
-           <br>
+            <br>
             Texarkana, Tx
             <br>
             555.555.555
-        </p>
-        <button class="btn my-3" id="footer-button" data-toggle="modal" data-target="#footer-contact-modal">Send us a note</button>
+          </p>
+        </div>        
+        <div class="col-sm-4 text-center py-3">
+          <button class="btn mx-auto d-block btn-lg" id="footer-button" data-toggle="modal" data-target="#footer-contact-modal">Send us a note</button>
+        </div>
+        <div id="social-media-container" class="col-sm-4 text-center">
+          <h2 class="pt-2 pb-3 yellow-text script-text">Follow Us</h2>
+          <a href="https://www.facebook.com/sfsugarnspice/" target="_blank"><i class="fab fa-facebook-square sm-icons yellow-text mx-3"></i></a>
+          <a href="https://www.instagram.com/sfsugarnspice/" target="_blank"><i class="fab fa-instagram sm-icons yellow-text mx-3"></i></a>
+        </div>
       </div>
-      <div id="social-media-container" class="text-center py-4">
-        <h2 class="pt-2 pb-3 yellow-text script-text">Follow Us</h2>
-        <a href="https://www.facebook.com/sfsugarnspice/" target="_blank"><i class="fab fa-facebook-square sm-icons yellow-text mx-3"></i></a>
-        <a href="https://www.instagram.com/sfsugarnspice/" target="_blank"><i class="fab fa-instagram sm-icons yellow-text mx-3"></i></a>
-      </div>
+
       <div class="text-center py-3">
         <h5 class="yellow-text">&copy; 2020 | Sugar & Spice Catering</h5>
       </div>
@@ -513,7 +521,7 @@
       </div>
       <!--FOOTER FORM MODAL-->
       <!--Modal Container-->
-    <div class="modal fade" id="footer-contact-modal">
+     <div class="modal fade" id="footer-contact-modal">
       <div class="modal-dialog modal-lg">
         <div class="modal-content px-4 py-4">
           <div class="modal-header">
@@ -547,12 +555,12 @@
               </div>
             </div>
             <div class="modal-footer">
-              <button type="submit" class="btn btn-info" value="Submit">Submit</button>
+              <button type="submit" class="btn form-modal-submit-btn" value="Submit">Submit</button>
             </div>
         </form>
         </div>
       </div>
-    </div>
+    
   </div>
 
   <!--JAVASCRIPT-->

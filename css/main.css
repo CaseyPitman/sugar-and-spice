@@ -129,7 +129,7 @@ body {
   border-bottom: 1px solid #143852;
   border-top: 1px solid #143852;
   padding-bottom: 25px;
-  height: 100vh;
+  height: 800px;
 }
 
 .carousel-inner {
@@ -193,7 +193,8 @@ body {
 }
 
 #footer-button {
-  background-color: #c3dbf4;
+  background-color: #ffcf45;
+  color: #143852;
 }
 
 .sm-icons {
@@ -213,5 +214,14 @@ body {
 .modal-form-label {
   font-size: 24px;
   margin: 10px 0;
+}
+
+.form-modal-submit-btn {
+  background-color: #143852;
+  color: #c3dbf4;
+}
+
+.form-modal-submit-btn:hover {
+  color: lightblue;
 }
 /*# sourceMappingURL=main.css.map */

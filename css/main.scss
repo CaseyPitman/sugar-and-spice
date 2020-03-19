@@ -140,7 +140,7 @@ padding:5px;
     border-bottom:1px solid $darkblue;
     border-top:1px solid $darkblue;
     padding-bottom: 25px;
-    height:100vh;
+    height:800px;
   }
 
 .carousel-inner{
@@ -204,7 +204,8 @@ padding:5px;
 }
 
 #footer-button{
-  background-color:$lightblue;
+  background-color:$gold;
+  color:$darkblue;
 }
 
 .sm-icons{
@@ -216,6 +217,8 @@ padding:5px;
   cursor: pointer;
 }
 
+
+
 #modal-form-title{
   font-size:32px;
 }
@@ -223,5 +226,14 @@ padding:5px;
 .modal-form-label{
   font-size:24px;
   margin:10px 0;
+}
+
+.form-modal-submit-btn{
+  background-color:$darkblue;
+  color:$lightblue;
+}
+
+.form-modal-submit-btn:hover{
+  color:lightblue;
 }
 
