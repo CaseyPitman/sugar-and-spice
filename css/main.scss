@@ -93,8 +93,7 @@ padding:5px;
   top:3%;
   left:3%;
   padding:0 5px 5px;
-  border-radius:5px;
-
+  
 }
 
 .logo-title-text{
@@ -217,8 +216,6 @@ padding:5px;
   cursor: pointer;
 }
 
-
-
 #modal-form-title{
   font-size:32px;
 }
@@ -237,3 +234,21 @@ padding:5px;
   color:lightblue;
 }
 
+//MENU PAGE//
+
+#menu-hero-logo{
+  position:absolute;
+  bottom:1%;
+  right:3%;
+  
+}
+
+.menu-logo-title-text{
+  margin:0 auto;
+  font-size:8vw;
+}
+
+.menu-logo-sub-text{
+  font-size:5vw;
+  margin-top:-5px;
+}
