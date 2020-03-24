@@ -40,6 +40,10 @@ body {
           transform: scale(1.1);
 }
 
+.active-menu-link {
+  background-color: rgba(51, 161, 189, 0.75);
+}
+
 /*Navbar*/
 .navbar {
   background-color: #143852;
