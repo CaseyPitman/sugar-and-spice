@@ -25,7 +25,7 @@ body {
     color:$darkblue;
 }
 .light-text {
-    color:$grey;
+    color:$cream;
 }
 .script-text{
     font-family: 'Great Vibes', cursive;
@@ -90,8 +90,8 @@ padding:5px;
 
 #hero-logo{
   position:absolute;
-  top:3%;
-  left:3%;
+  top:2%;
+  left:2%;
   padding:0 5px 5px;
   
 }
@@ -102,8 +102,9 @@ padding:5px;
 }
 
 .logo-sub-text{
-  font-size:5vw;
+  font-size:4.75vw;
   margin-top:-5px;
+  padding-top:0;
 }
 
 /*Home About Section*/
