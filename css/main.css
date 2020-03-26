@@ -245,6 +245,28 @@ body {
   margin-top: -5px;
 }
 
+#menu-body {
+  background-color: rgba(255, 207, 69, 0.25);
+  color: #143852;
+}
+
+.menu-title {
+  background-color: #143852;
+  color: #ffcf45;
+}
+
+.app-menu-item {
+  background-color: rgba(255, 207, 69, 0.25);
+}
+
+.app-menu-included {
+  background-color: rgba(255, 207, 69, 0.55);
+}
+
+.meal-menu-item {
+  background-color: rgba(255, 207, 69, 0.25);
+}
+
 #contact-content {
   background-color: rgba(255, 207, 69, 0.25);
   border-bottom: 1px solid #143852;

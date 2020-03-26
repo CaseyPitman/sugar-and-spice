@@ -27,7 +27,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body id="menu-body">
   <nav id="ss-navbar"class="navbar navbar-expand-sm fixed-top"> 
     <!--Brand-->
     <a class="navbar-brand font-weight-bold" href="index.html">Home</a>
@@ -71,19 +71,21 @@
     </div>
   </div>
   <div id="menu-container" class="container-fluid">
-    <h1 class="script-text text-center">Our Menu</h1>
-    <p id="menu-explained">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna 
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+    <div id="menu-top">
+      <h1 class="script-text text-center">Our Menu</h1>
+      <p id="menu-explained">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna 
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
 
     <div id="app-menu">
       <h1 class="script-text text-center">Appetizers</h1>
       <div class="row">
-        <div id="app-menu-1" class="col-md border mx-2 py-0 px-0">
-          <div class="app-menu-title bg-dark text-light">
+        <div id="app-menu-1" class="col-md border mx-2 py-0 px-0 app-menu-item">
+          <div class="menu-title">
             <h2>Menu One</h2>
           </div>
           <div class="app-menu-items-1 px-1">
@@ -121,8 +123,8 @@
           </div>
         </div>
         
-        <div id="app-menu-2" class="col-md border mx-2 py-0 px-0">
-          <div class="app-menu-title bg-dark text-light">
+        <div id="app-menu-2" class="col-md border mx-2 py-0 px-0 app-menu-item">
+          <div class="menu-title">
             <h2>Menu Two</h2>
           </div>
           <div class="app-menu-items-1 px-1">
@@ -167,8 +169,8 @@
           </div>
         </div>
        
-        <div id="app-menu-3" class="col-md border mx-2 py-0 px-0">
-          <div class="app-menu-title bg-dark text-light">
+        <div id="app-menu-3" class="col-md border mx-2 py-0 px-0 app-menu-item">
+          <div class="menu-title">
             <h2>Menu Three</h2>
           </div>
           <div class="app-menu-items-1 px-1">
@@ -218,54 +220,77 @@
 
     <div id="meal-menu">
       <h1 class="script-text text-center">Meals</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur.
+      </p>
       <div class="row">
-        <div id="meal-menu-1" class="col-md border mx-2 py-0 px-0">
-          <div class="menu-title bg-dark text-light">
+        <div id="meal-menu-1" class="col-md border mx-2 py-0 px-0 meal-menu-item">
+          <div class="menu-title">
             <h2>Meal One</h2>
           </div>
           <div class="menu-items-1 px-1">
             <div class="menu-included">
               <h4>Includes:</h4>
               <ul>
+                <li>Cornbread Stuffed Chicken or Brisket</li>
+                <li>Baked Beans</li>
+                <li>Garlic Mashed Potatoes</li>
+                <li>Bread</li>
                 <li>Punch & Tea</li>
               </ul>
             </div>
           </div>
           </div>
-          <div id="meal-menu-2" class="col-md border mx-2 py-0 px-0">
-            <div class="menu-title bg-dark text-light">
+          <div id="meal-menu-2" class="col-md border mx-2 py-0 px-0 meal-menu-item">
+            <div class="menu-title">
               <h2>Meal Two</h2>
             </div>
             <div class="menu-items-1 px-1">
               <div class="menu-included">
                 <h4>Includes:</h4>
                 <ul>
+                  <li>Sour Cream Chicken Enchiladas or Mexican Casserole</li>
+                  <li>Baja Rice</li>
+                  <li>Refried Beans or Black Beans</li>
+                  <li>Chips & Salsa</li>
                   <li>Punch & Tea</li>
                 </ul>
               </div>
             </div>
             </div>
-            <div id="meal-menu-3" class="col-md border mx-2 py-0 px-0">
-              <div class="menu-title bg-dark text-light">
+            <div id="meal-menu-3" class="col-md border mx-2 py-0 px-0 meal-menu-item">
+              <div class="menu-title">
                 <h2>Meal Three</h2>
               </div>
               <div class="menu-items-1 px-1">
                 <div class="menu-included">
                   <h4>Includes:</h4>
                   <ul>
+                    <li>Chicken & Spaghetti or Lasagna</li>
+                    <li>Green Beans with New Potatoes</li>
+                    <li>Corn</li>
+                    <li>Garlic Bread</li>
                     <li>Punch & Tea</li>
                   </ul>
                 </div>
               </div>
               </div>
-              <div id="meal-menu-4" class="col-md border mx-2 py-0 px-0">
-                <div class="menu-title bg-dark text-light">
+              <div id="meal-menu-4" class="col-md border mx-2 py-0 px-0 meal-menu-item">
+                <div class="menu-title">
                   <h2>Meal Four</h2>
                 </div>
                 <div class="menu-items-1 px-1">
                   <div class="menu-included">
                     <h4>Includes:</h4>
                     <ul>
+                      <li>Sweet & Spicy Bacon Wrapped Chicken or Lemon Pepper Chicken</li>
+                      <li>Twice Baked Potato Casserole</li>
+                      <li>Macaroni & Cheese</li>
+                      <li>Bread</li>
                       <li>Punch & Tea</li>
                     </ul>
                   </div>
@@ -273,47 +298,61 @@
                 </div>
       </div> <!--end row 1-->
       <div class="row my-4">
-          <div id="meal-menu-5" class="col-md border mx-2 py-0 px-0">
-            <div class="menu-title bg-dark text-light">
+          <div id="meal-menu-5" class="col-md border mx-2 py-0 px-0 meal-menu-item">
+            <div class="menu-title">
               <h2>Meal Five</h2>
             </div>
             <div class="menu-items-1 px-1">
               <div class="menu-included">
                 <h4>Includes:</h4>
                 <ul>
+                  <li>Chicken or Beef Kabobs</li>
+                  <li>Seasoned Rice with Roasted Vegetables</li>
+                  <li>Bread</li>
                   <li>Punch & Tea</li>
                 </ul>
               </div>
             </div>
             </div>
-            <div id="meal-menu-6" class="col-md border mx-2 py-0 px-0">
-              <div class="menu-title bg-dark text-light">
+            <div id="meal-menu-6" class="col-md border mx-2 py-0 px-0 meal-menu-item">
+              <div class="menu-title">
                 <h2>Meal Six</h2>
               </div>
               <div class="menu-items-1 px-1">
                 <div class="menu-included">
                   <h4>Includes:</h4>
                   <ul>
+                    <li>Smothered Steak or Smoked Pork Loin</li>
+                    <li>Twice Baked Potato Casserole</li>
+                    <li>Green Beans</li>
+                    <li>Bread</li>
                     <li>Punch & Tea</li>
                   </ul>
                 </div>
               </div>
               </div>
-              <div id="meal-menu-7" class="col-md border mx-2 py-0 px-0">
-                <div class="menu-title bg-dark text-light">
+              <div id="meal-menu-7" class="col-md border mx-2 py-0 px-0 meal-menu-item">
+                <div class="menu-title">
                   <h2>Meal Seven</h2>
                 </div>
                 <div class="menu-items-1 px-1">
                   <div class="menu-included">
                     <h4>Includes:</h4>
                     <ul>
+                      <li>Pasta Bar :<br>
+                      Grilled Chicken or Meatballs<br>
+                      White Sauce or Red Sauce<br>
+                      Two Pastas
+                      </li>
+                      <li>Garlic Bread</li>
+                      <li>Garden Salad or Strawberry Walnut Salad</li>
                       <li>Punch & Tea</li>
                     </ul>
                   </div>
                 </div>
                 </div>
-                <div id="meal-menu-8" class="col-md border mx-2 py-0 px-0">
-                  <div class="menu-title bg-dark text-light">
+                <div id="meal-menu-8" class="col-md border mx-2 py-0 px-0 meal-menu-item">
+                  <div class="menu-title">
                     <h2>Meal Eight
                     </h2>
                   </div>
@@ -321,6 +360,12 @@
                     <div class="menu-included">
                       <h4>Includes:</h4>
                       <ul>
+                        <li>Chili Bar :<br>
+                            Homemade Chili with All Toppings<br>
+                            Hot Dogs with All Toppings<br>
+                            Nachos with All Toppings<br>
+                            Frito Pies with All Toppings
+                        </li>
                         <li>Punch & Tea</li>
                       </ul>
                     </div>
@@ -329,14 +374,24 @@
       </div> <!--End row 2-->
       <div class="row">
         
-            <div id="meal-menu-9" class="col-3 border py-0 px-0">
-              <div class="menu-title bg-dark text-light">
+            <div id="meal-menu-9" class="col-md-6 border mx-auto py-0 px-0 meal-menu-item">
+              <div class="menu-title">
                 <h2>Meal Nine</h2>
               </div>
               <div class="menu-items-1 px-1">
                 <div class="menu-included">
                   <h4>Includes:</h4>
                   <ul>
+                    <li>Taco Bar :<br>
+                        Chicken or Beef (Ask About Alternatives)<br>
+                        Flour or Corn Tortillas (Hard or Soft)<br>
+                        Salsa<br>
+                        Cheese<br>
+                        Sour Cream<br>
+                        Peppers
+                    </li>
+                    <li>Baja Corn & Black Beans</li>
+                    <li>Chips & Salsa</li>
                     <li>Punch & Tea</li>
                   </ul>
                 </div>
