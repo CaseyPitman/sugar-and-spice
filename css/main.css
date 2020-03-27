@@ -229,6 +229,21 @@ body {
   color: lightblue;
 }
 
+#hero,
+#menu-top,
+#app-menu,
+#meal-menu,
+#dessert-menu {
+  border-bottom: 1px solid rgba(20, 56, 82, 0.4);
+}
+
+#menu-top,
+#app-menu,
+#meal-menu,
+#dessert-menu {
+  padding-bottom: 30px;
+}
+
 #menu-hero-logo {
   position: absolute;
   bottom: 1%;
@@ -245,26 +260,39 @@ body {
   margin-top: -5px;
 }
 
-#menu-body {
-  background-color: rgba(255, 207, 69, 0.25);
-  color: #143852;
+#menu-title {
+  font-size: 3.5rem;
 }
 
-.menu-title {
+.menu-section-title {
+  font-size: 3rem;
+}
+
+.menu-item-title {
   background-color: #143852;
-  color: #ffcf45;
+  color: #c3dbf4;
+  margin: 0;
 }
 
 .app-menu-item {
-  background-color: rgba(255, 207, 69, 0.25);
+  background-color: rgba(195, 219, 244, 0.25);
+}
+
+.app-choices {
+  padding: 20px;
 }
 
 .app-menu-included {
-  background-color: rgba(255, 207, 69, 0.55);
+  background-color: #c3dbf4;
+  padding: 20px;
 }
 
 .meal-menu-item {
-  background-color: rgba(255, 207, 69, 0.25);
+  background-color: rgba(195, 219, 244, 0.25);
+}
+
+.menu-included {
+  padding: 20px;
 }
 
 #contact-content {

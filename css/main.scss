@@ -1,7 +1,7 @@
 /*Define color palette variables*/
 
 $darkblue: rgb(20, 56, 82);
-$darkbluetrans: rgba(20,56,82,0.75);
+$darkbluetrans: rgba(20,56,82,0.4);
 $mediumblue:rgba(51,161,189, 0.75);
 $cream:rgb(255,255,204);
 $gold:rgb(255,207,69);
@@ -240,6 +240,20 @@ padding:5px;
 }
 
 //MENU PAGE//
+#hero,
+#menu-top,
+#app-menu,
+#meal-menu,
+#dessert-menu {
+  border-bottom:1px solid $darkbluetrans;
+}
+
+#menu-top,
+#app-menu,
+#meal-menu,
+#dessert-menu {
+  padding-bottom:30px;
+}
 
 #menu-hero-logo{
   position:absolute;
@@ -257,24 +271,38 @@ padding:5px;
   margin-top:-5px;
 }
 
-#menu-body{
-  background-color: $backgroundgold;
-  color:$darkblue;
+#menu-title{
+  font-size: 3.5rem;
 }
-.menu-title{
+
+.menu-section-title{
+  font-size:3rem;
+}
+
+
+.menu-item-title{
   background-color: $darkblue;
-  color:$gold;
+  color:$lightblue;
+  margin:0;
 }
 
 .app-menu-item{
-  background-color:$backgroundgold;
+  background-color:rgba(195,219,244,0.25);
 }
+.app-choices {
+  padding:20px;
+}
+
 .app-menu-included{
-  background-color:rgba(255,207,69,0.55)
+  background-color:$lightblue;
+  padding:20px;
 }
 
 .meal-menu-item{
-  background-color:$backgroundgold;
+  background-color:rgba(195,219,244,0.25);
+}
+.menu-included {
+  padding:20px;
 }
 
 //Contact Page//
