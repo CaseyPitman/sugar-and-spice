@@ -103,7 +103,6 @@ body {
 
 /*Home About Section*/
 #about {
-  background-color: rgba(255, 207, 69, 0.25);
   border-bottom: 1px solid #143852;
   border-top: 1px solid #143852;
   padding-bottom: 25px;
@@ -129,7 +128,6 @@ body {
 
 /*Home Reviews*/
 #reviews {
-  background: rgba(255, 207, 69, 0.25);
   border-bottom: 1px solid #143852;
   border-top: 1px solid #143852;
   padding-bottom: 25px;
@@ -295,12 +293,25 @@ body {
   padding: 20px;
 }
 
+/*
+#gallery-body {
+  background-color:$backgroundgold;
+}*/
 #gallery-title {
   font-size: 5rem;
 }
 
+.gallery-close-modal-button {
+  background-color: #143852;
+  color: #ffcf45;
+}
+
+.gallery-close-modal-button:hover {
+  color: #ffcf45;
+}
+
 #contact-content {
-  background-color: rgba(255, 207, 69, 0.25);
+  background-color: #c3dbf4;
   border-bottom: 1px solid #143852;
   border-top: 1px solid #143852;
 }

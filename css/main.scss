@@ -114,7 +114,7 @@ padding:5px;
 /*Home About Section*/
 
 #about{
-  background-color:$backgroundgold;
+  //background-color:$backgroundgold;
   border-bottom:1px solid $darkblue;
   border-top:1px solid $darkblue;
   padding-bottom: 25px;
@@ -140,7 +140,7 @@ padding:5px;
 
 /*Home Reviews*/
 #reviews{
-    background:$backgroundgold;
+   // background:$backgroundgold;
     border-bottom:1px solid $darkblue;
     border-top:1px solid $darkblue;
     padding-bottom: 25px;
@@ -240,6 +240,7 @@ padding:5px;
 }
 
 //MENU PAGE//
+
 #hero,
 #menu-top,
 #app-menu,
@@ -306,15 +307,29 @@ padding:5px;
 }
 
 //Gallery Page// 
+/*
+#gallery-body {
+  background-color:$backgroundgold;
+}*/
+
 
 #gallery-title {
   font-size:5rem;
 }
 
+.gallery-close-modal-button {
+  background-color:$darkblue;
+  color:$gold;
+}
+.gallery-close-modal-button:hover {
+  color:$gold;
+}
+
+
 //Contact Page//
 
 #contact-content {
-  background-color:$backgroundgold;
+  background-color:$lightblue;
   border-bottom:1px solid $darkblue;
   border-top:1px solid $darkblue;
 }
