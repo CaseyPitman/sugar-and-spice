@@ -70,6 +70,16 @@ body {
   padding: 5px;
 }
 
+.navbar-toggler-icon,
+.navbar-toggler,
+.toggler-button,
+.collapsed {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #143852;
+}
+
 /*Home Hero Section*/
 #hero {
   margin: 56px auto 0;
@@ -119,7 +129,7 @@ body {
 
 #menu-link-btn {
   background-color: #143852;
-  color: #c3dbf4;
+  color: #ffcf45;
 }
 
 #menu-link-btn:hover {
@@ -153,11 +163,11 @@ body {
 
 .review-btn {
   background-color: #143852;
-  color: #c3dbf4;
+  color: #ffcf45;
 }
 
 .review-btn:hover {
-  color: lightblue;
+  color: #ffcf45;
 }
 
 .modal-review-title,
@@ -167,11 +177,11 @@ body {
 
 .review-modal-close-btn {
   background-color: #143852;
-  color: #c3dbf4;
+  color: #ffcf45;
 }
 
 .review-modal-close-btn:hover {
-  color: lightblue;
+  color: #ffcf45;
 }
 
 /*Global Modal Styles*/
@@ -268,7 +278,7 @@ body {
 
 .menu-item-title {
   background-color: #143852;
-  color: #c3dbf4;
+  color: #ffcf45;
   margin: 0;
 }
 
@@ -293,10 +303,6 @@ body {
   padding: 20px;
 }
 
-/*
-#gallery-body {
-  background-color:$backgroundgold;
-}*/
 #gallery-title {
   font-size: 5rem;
 }

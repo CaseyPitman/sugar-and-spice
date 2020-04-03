@@ -78,6 +78,17 @@ body {
 .navbar-brand{
 padding:5px;
 }
+.navbar-toggler-icon,
+.navbar-toggler,
+.toggler-button,
+.collapsed {
+  border:none;
+  margin:0;
+  padding:0;
+  background-color:$darkblue;
+}
+
+
 
 /*Home Hero Section*/
 #hero {
@@ -131,7 +142,7 @@ padding:5px;
 
 #menu-link-btn{
     background-color:$darkblue;
-    color:$lightblue;
+    color:$gold;
 }
 
 #menu-link-btn:hover{
@@ -165,11 +176,11 @@ padding:5px;
 
 .review-btn{
   background-color:$darkblue;
-  color:$lightblue;
+  color:$gold;
 }
 
 .review-btn:hover{
-  color:lightblue;
+  color:$gold;
 }
 
 .modal-review-title, 
@@ -179,11 +190,11 @@ padding:5px;
 
 .review-modal-close-btn{
   background-color:$darkblue;
-  color:$lightblue;
+  color:$gold;
 }
 
 .review-modal-close-btn:hover{
-  color:lightblue;
+  color:$gold;
 }
 
 
@@ -283,7 +294,7 @@ padding:5px;
 
 .menu-item-title{
   background-color: $darkblue;
-  color:$lightblue;
+  color:$gold;
   margin:0;
 }
 
@@ -307,11 +318,6 @@ padding:5px;
 }
 
 //Gallery Page// 
-/*
-#gallery-body {
-  background-color:$backgroundgold;
-}*/
-
 
 #gallery-title {
   font-size:5rem;
