@@ -228,7 +228,7 @@ padding:5px;
 }
 
 .sm-icons:hover{
-  transform:scale(1.1);
+  color:$lightblue;
   cursor: pointer;
 }
 
@@ -256,8 +256,16 @@ padding:5px;
   text-decoration: none;
 }
 
+.phone-number:hover{
+  color:$lightblue;
+  text-decoration: none;
+ 
+}
+
 .dev-link:hover{
   color:$lightblue;
+  text-decoration: none;
+ 
 }
 
 //MENU PAGE//

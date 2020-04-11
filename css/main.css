@@ -214,8 +214,7 @@ body {
 }
 
 .sm-icons:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  color: #c3dbf4;
   cursor: pointer;
 }
 
@@ -243,8 +242,14 @@ body {
   text-decoration: none;
 }
 
+.phone-number:hover {
+  color: #c3dbf4;
+  text-decoration: none;
+}
+
 .dev-link:hover {
   color: #c3dbf4;
+  text-decoration: none;
 }
 
 #hero,
