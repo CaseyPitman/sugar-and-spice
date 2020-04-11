@@ -247,7 +247,15 @@ padding:5px;
 }
 
 .form-modal-submit-btn:hover{
-  color:lightblue;
+  color:$lightblue;
+}
+
+.phone-number {
+  font-family: 'Roboto', sans-serif;
+}
+
+.dev-link:hover{
+  color:$lightblue;
 }
 
 //MENU PAGE//
@@ -291,6 +299,9 @@ padding:5px;
   font-size:3rem;
 }
 
+.menu-explained{
+  font-size:20px;
+}
 
 .menu-item-title{
   background-color: $darkblue;
