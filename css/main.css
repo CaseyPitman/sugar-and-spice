@@ -239,6 +239,8 @@ body {
 
 .phone-number {
   font-family: 'Roboto', sans-serif;
+  color: #ffcf45;
+  text-decoration: none;
 }
 
 .dev-link:hover {
