@@ -44,9 +44,7 @@ body {
     font-size:4rem;
 }
 
-.btn:hover {
-  transform:scale(1.1);
-}
+
 
 .active-menu-link{
   background-color: $mediumblue;
@@ -67,12 +65,12 @@ body {
 
 .navbar-brand:hover,
 .nav-link:hover{
-    color:$gold;
+    color:$lightblue;
 }
 
 .nav-item:hover,
 .navbar-brand:hover{
-    background-color:$mediumblue;
+    color:$lightblue;
 }
 
 .navbar-brand{
@@ -180,7 +178,7 @@ padding:5px;
 }
 
 .review-btn:hover{
-  color:$gold;
+  color:$lightblue;
 }
 
 .modal-review-title, 
@@ -194,7 +192,7 @@ padding:5px;
 }
 
 .review-modal-close-btn:hover{
-  color:$gold;
+  color:$lightblue;
 }
 
 
@@ -266,6 +264,10 @@ padding:5px;
   color:$lightblue;
   text-decoration: none;
  
+}
+
+#footer-button:hover{
+  background-color:$lightblue;
 }
 
 //MENU PAGE//
@@ -349,7 +351,7 @@ padding:5px;
   color:$gold;
 }
 .gallery-close-modal-button:hover {
-  color:$gold;
+  color:$lightblue;
 }
 
 

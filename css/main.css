@@ -35,11 +35,6 @@ body {
   font-size: 4rem;
 }
 
-.btn:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .active-menu-link {
   background-color: rgba(51, 161, 189, 0.75);
 }
@@ -58,12 +53,12 @@ body {
 
 .navbar-brand:hover,
 .nav-link:hover {
-  color: #ffcf45;
+  color: #c3dbf4;
 }
 
 .nav-item:hover,
 .navbar-brand:hover {
-  background-color: rgba(51, 161, 189, 0.75);
+  color: #c3dbf4;
 }
 
 .navbar-brand {
@@ -167,7 +162,7 @@ body {
 }
 
 .review-btn:hover {
-  color: #ffcf45;
+  color: #c3dbf4;
 }
 
 .modal-review-title,
@@ -181,7 +176,7 @@ body {
 }
 
 .review-modal-close-btn:hover {
-  color: #ffcf45;
+  color: #c3dbf4;
 }
 
 /*Global Modal Styles*/
@@ -250,6 +245,10 @@ body {
 .dev-link:hover {
   color: #c3dbf4;
   text-decoration: none;
+}
+
+#footer-button:hover {
+  background-color: #c3dbf4;
 }
 
 #hero,
@@ -332,7 +331,7 @@ body {
 }
 
 .gallery-close-modal-button:hover {
-  color: #ffcf45;
+  color: #c3dbf4;
 }
 
 #contact-content {
