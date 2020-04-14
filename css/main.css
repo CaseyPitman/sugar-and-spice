@@ -108,11 +108,8 @@ body {
 
 /*Home About Section*/
 #about {
-  border-bottom: 1px solid #143852;
-  border-top: 1px solid #143852;
   padding-bottom: 25px;
   height: auto;
-  /*scroll-margin-top:54px;*/
 }
 
 #self-pic {
@@ -120,13 +117,15 @@ body {
   max-width: 500px;
   display: block;
   margin: auto;
+  border: 1px solid #143852;
 }
 
 /*Home Services*/
 #services {
   background-color: #c3dbf4;
-  /*scroll-margin-top:55px;*/
   height: auto;
+  border-bottom: 1px solid #143852;
+  border-top: 1px solid #143852;
 }
 
 #menu-link-btn {
@@ -138,12 +137,18 @@ body {
   color: #c3dbf4;
 }
 
+.services-subtitle {
+  font-size: 2rem;
+}
+
 /*Home Reviews*/
 #reviews {
-  border-bottom: 1px solid #143852;
-  border-top: 1px solid #143852;
   padding-bottom: 25px;
-  height: 800px;
+  height: 600px;
+}
+
+.control {
+  display: none;
 }
 
 .carousel-inner {
@@ -158,8 +163,7 @@ body {
   font-size: 28px;
 }
 
-.carousel-control {
-  color: #143852;
+.fa-quote-left {
   font-size: 30px;
 }
 

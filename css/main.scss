@@ -44,8 +44,6 @@ body {
     font-size:4rem;
 }
 
-
-
 .active-menu-link{
   background-color: $mediumblue;
 }
@@ -123,12 +121,11 @@ padding:5px;
 /*Home About Section*/
 
 #about{
-  //background-color:$backgroundgold;
-  border-bottom:1px solid $darkblue;
-  border-top:1px solid $darkblue;
+ 
+ // border-bottom:1px solid $darkblue;
+ // border-top:1px solid $darkblue;
   padding-bottom: 25px;
   height:auto;
-  /*scroll-margin-top:54px;*/
 }
 
 #self-pic{
@@ -136,15 +133,16 @@ padding:5px;
  max-width:500px;
  display:block;
  margin:auto;
+ border:1px solid $darkblue;
 }
 
 
 /*Home Services*/
 #services{
   background-color:$lightblue;
-  /*scroll-margin-top:55px;*/
   height:auto;
-
+  border-bottom:1px solid $darkblue;
+  border-top:1px solid $darkblue;
 }
 
 #menu-link-btn{
@@ -156,14 +154,22 @@ padding:5px;
     color:$lightblue;
 }
 
+.services-subtitle{
+font-size:2rem;
+
+}
 /*Home Reviews*/
 #reviews{
   
-    border-bottom:1px solid $darkblue;
-    border-top:1px solid $darkblue;
+   // border-bottom:1px solid $darkblue;
+   // border-top:1px solid $darkblue;
     padding-bottom: 25px;
-    height:800px;
+    height:600px;
   }
+
+.control{
+  display:none;
+}
 
 .carousel-inner{
   width:100%;
@@ -176,9 +182,8 @@ padding:5px;
     font-size:28px;
 }
 
-.carousel-control {
-    color:$darkblue;
-    font-size:30px;
+.fa-quote-left{
+  font-size:30px;
 }
 
 .review-btn{
