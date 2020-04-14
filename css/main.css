@@ -115,6 +115,13 @@ body {
   /*scroll-margin-top:54px;*/
 }
 
+#self-pic {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
 /*Home Services*/
 #services {
   background-color: #c3dbf4;
