@@ -3,11 +3,8 @@
 $darkblue: rgb(20, 56, 82);
 $darkbluetrans: rgba(20,56,82,0.4);
 $mediumblue:rgba(51,161,189, 0.75);
-$cream:rgb(255,255,204);
 $gold:rgb(255,207,69);
 $backgroundgold:rgba(255,207,69,0.25);
-$brown:rgb(99,62,28);
-$grey:rgb(183,191,201);
 $lightblue:rgb(195,219,244);
 
 /*Global*/
@@ -18,8 +15,6 @@ html{
 body {
  width:100%;
  font-family: 'Raleway', sans-serif;
- /*background-image: url(../img/background-paper.png);*/
- 
 }
 .dark-text{
     color:$darkblue;
@@ -84,8 +79,6 @@ padding:5px;
   background-color:$darkblue;
 }
 
-
-
 /*Home Hero Section*/
 #hero {
   margin:56px auto 0;
@@ -121,9 +114,6 @@ padding:5px;
 /*Home About Section*/
 
 #about{
- 
- // border-bottom:1px solid $darkblue;
- // border-top:1px solid $darkblue;
   padding-bottom: 25px;
   height:auto;
 }
@@ -135,7 +125,6 @@ padding:5px;
  margin:auto;
  border:1px solid $darkblue;
 }
-
 
 /*Home Services*/
 #services{
@@ -156,13 +145,10 @@ padding:5px;
 
 .services-subtitle{
 font-size:2rem;
-
 }
+
 /*Home Reviews*/
 #reviews{
-  
-   // border-bottom:1px solid $darkblue;
-   // border-top:1px solid $darkblue;
     padding-bottom: 25px;
     height:600px;
   }
@@ -173,11 +159,12 @@ font-size:2rem;
 
 .carousel-inner{
   width:100%;
-
 }
+
 .review-quote{
     font-size: 22px;
 }
+
 .quote-attribute{
     font-size:28px;
 }
@@ -209,8 +196,6 @@ font-size:2rem;
   color:$lightblue;
 }
 
-
-
 /*Global Modal Styles*/
 .modal-content {
  background-color:$lightblue;
@@ -230,9 +215,14 @@ font-size:2rem;
   font-size:20px;
 }
 
-#footer-button{
+.footer-button{
   background-color:$gold;
   color:$darkblue;
+}
+
+.footer-button:hover{
+  background-color:$lightblue;
+  text-decoration: none;
 }
 
 .sm-icons{
@@ -241,50 +231,24 @@ font-size:2rem;
 
 .sm-icons:hover{
   color:$lightblue;
-  cursor: pointer;
-}
-
-#modal-form-title{
-  font-size:32px;
-}
-
-.modal-form-label{
-  font-size:24px;
-  margin:10px 0;
-}
-
-.form-modal-submit-btn{
-  background-color:$darkblue;
-  color:$gold;
-}
-
-.form-modal-submit-btn:hover{
-  color:$lightblue;
 }
 
 .phone-number {
   font-family: 'Roboto', sans-serif;
   color:$gold;
-  text-decoration: none;
 }
 
 .phone-number:hover{
   color:$lightblue;
   text-decoration: none;
- 
 }
 
 .dev-link:hover{
   color:$lightblue;
   text-decoration: none;
- 
 }
 
-#footer-button:hover{
-  background-color:$lightblue;
-}
-
-//MENU PAGE//
+/*MENU PAGE*/
 
 #hero,
 #menu-top,
@@ -354,7 +318,7 @@ font-size:2rem;
   padding:20px;
 }
 
-//Gallery Page// 
+/*GALLERY PAGE*/ 
 
 #gallery-title {
   font-size:5rem;
@@ -368,7 +332,7 @@ font-size:2rem;
   color:$lightblue;
 }
 
-//Contact Page//
+/*CONTACT PAGE*/
 
 #contact-content {
   background-color:$lightblue;
@@ -381,7 +345,21 @@ font-size:2rem;
   margin:20px auto;
 }
 
-//Thank you page
+.form-label{
+  font-size:1.75rem;
+  margin:10px 0;
+}
+
+.form-submit-btn{
+  background-color:$darkblue;
+  color:$gold;
+}
+
+.form-submit-btn:hover{
+  color:$lightblue;
+}
+
+/*THANK YOU PAGE*/
 
 #thank-you-note{
   background-color: $lightblue;
