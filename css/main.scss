@@ -368,7 +368,6 @@ font-size:2rem;
   color:$lightblue;
 }
 
-
 //Contact Page//
 
 #contact-content {
@@ -380,4 +379,18 @@ font-size:2rem;
 #contact-page-headline{
   font-size: 4rem;
   margin:20px auto;
+}
+
+//Thank you page
+
+#thank-you-note{
+  background-color: $lightblue;
+}
+
+#thank-you-headline {
+  font-size:4rem;
+}
+
+#thank-you-text{
+  font-size:1.4rem;
 }

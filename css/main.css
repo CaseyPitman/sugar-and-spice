@@ -355,4 +355,16 @@ body {
   font-size: 4rem;
   margin: 20px auto;
 }
+
+#thank-you-note {
+  background-color: #c3dbf4;
+}
+
+#thank-you-headline {
+  font-size: 4rem;
+}
+
+#thank-you-text {
+  font-size: 1.4rem;
+}
 /*# sourceMappingURL=main.css.map */
