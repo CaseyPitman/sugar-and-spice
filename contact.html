@@ -76,40 +76,54 @@
 
   <!--Contact Form-->
   <div class="container-fluid py-5 mt-5" id="contact-content">
-    <h1 class="text-center dark-text script-text" id="contact-page-headline">How can we help you?</h1>
-      <!--Form-->
+    <h1 class="text-center dark-text script-text" id="contact-page-headline">
+      How can we help you?
+    </h1>
+  <!--Form-->
+    <form class="col-md-8 mx-auto" action="" method="POST">
       <div class="row">
-        <div class="col-md-8 mx-auto">
-          <form action="" method="POST">
-            <div class="container-fluid">
-            <div class="row">
-              <div class="col-md">
-                <label for="name" class="script-text form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
-                <label for="_replyto" class="script-text form-label">Email</label>
-                <input type="email" class="form-control" id="_replyto" placeholder="email@address.com" name="_replyto" required>
-              </div>
-              <div class="col-md">
-                <label for="number-of-guests" class="script-text form-label">Number of Guests</label>
-                <input type="number" class="form-control" id="number-of-guests" name="number-of-guests" min="1" placeholder="Guests">
-                <label for="event-date" class="script-text form-label">Date of Event</label>
-                <input type="date" class="form-control" id="event-date" name="event-date" required>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-              <label for="about-event" class="script-text form-label">Tell Us About Your Event</label>
-              <textarea rows="5" class="form-control" id="about-event" name="about-event" placeholder="Questions? Special requests? Let us know what you need."></textarea>
-              </div>
-            </div>
-          </div>     
-        <div class="row">
-          <button type="submit" class="btn btn-lg mx-auto mt-5 form-submit-btn" value="Submit">Submit</button>
+        <div class="col-md">
+          <label for="name" class="script-text form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
         </div>
+        <div class="col-md">
+          <label for="_replyto" class="script-text form-label">Email</label>
+            <input type="email" class="form-control" id="_replyto" placeholder="email@address.com" name="_replyto" required>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <label for="phone" class="script-text form-label">Phone Number</label>
+          <input type="tel" class="form-control phone-number" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-555" required>
+        </div>
+        <div class="col-md">
+          <label for="number-of-guests" class="script-text form-label">Number of Guests</label>
+          <input type="number" class="form-control" id="number-of-guests" name="number-of-guests" min="1" placeholder="Guests">
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <label for="event-date" class="script-text form-label">Date of Event</label>
+          <input type="date" class="form-control" id="event-date" name="event-date" required>
+        </div>
+        <div class="col-md">
+          <label for="event-type" class="script-text form-label">Type of Event</label>
+          <input type="text" class="form-control" id="event-type" name="event-type" placeholder="Event" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="about-event" class="script-text form-label">Tell Us About Your Event</label>
+          <textarea rows="5" class="form-control" id="about-event" name="about-event" placeholder="Questions? Special requests? Let us know what you need."></textarea>
+        </div>
+      </div>
+      <!---DON'T FORGET TO CHANGE REDIRECT VALUE BEFORE UPLOADING SITE!!!-->
+      <input type="hidden" name="_next" value=""/> 
+      <div class="row">
+        <button type="submit" class="btn btn-lg mx-auto mt-5 form-submit-btn" value="Send">Submit</button>
+      </div>
     </form>
-    </div>
-  </div>
-  </div>
+  </div>  <!--End contact-content-->
 
   <!--Footer-->
   <div class="container-fluid py-5" id="footer">
@@ -121,7 +135,7 @@
            <br>
            Texarkana, Tx
            <br>
-           <a href="tel:+1-903-276-4389" class=phone-number>1.903.276.4389</a>
+           <a href="tel:+1-903-276-4389" class="phone-number">1.903.276.4389</a>
          </p>
        </div>        
        <div class="col-sm-4 text-center py-3">
@@ -151,5 +165,5 @@
  <script src="js/main.js"></script>
 
 
-
+</body>
 </html>

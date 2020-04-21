@@ -13,10 +13,6 @@ body {
   color: #143852;
 }
 
-.light-text {
-  color: #ffffcc;
-}
-
 .script-text {
   font-family: 'Great Vibes', cursive;
 }
@@ -202,7 +198,6 @@ body {
 /*Footer*/
 #footer {
   background-color: #143852;
-  height: 100vh;
 }
 
 .footer-text {
@@ -242,6 +237,7 @@ body {
   text-decoration: none;
 }
 
+/*MENU PAGE*/
 #hero,
 #menu-top,
 #app-menu,
@@ -249,8 +245,6 @@ body {
 #dessert-menu {
   border-bottom: 1px solid rgba(20, 56, 82, 0.4);
 }
-
-/*MENU PAGE*/
 
 #menu-top,
 #app-menu,
@@ -329,7 +323,6 @@ body {
 }
 
 /*CONTACT PAGE*/
-
 #contact-content {
   background-color: #c3dbf4;
   border-bottom: 1px solid #143852;
@@ -364,7 +357,11 @@ body {
   font-size: 4rem;
 }
 
-#thank-you-text {
-  font-size: 1.4rem;
+.thank-you-text {
+  font-size: 1.5rem;
+}
+
+#close-thank-you-button:hover {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

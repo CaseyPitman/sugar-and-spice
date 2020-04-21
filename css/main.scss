@@ -19,9 +19,7 @@ body {
 .dark-text{
     color:$darkblue;
 }
-.light-text {
-    color:$cream;
-}
+
 .script-text{
     font-family: 'Great Vibes', cursive;
   }
@@ -209,8 +207,9 @@ font-size:2rem;
 /*Footer*/
 #footer{
     background-color:$darkblue;
-    height:100vh;
+    
 }
+
 .footer-text {
   font-size:20px;
 }
@@ -369,6 +368,10 @@ font-size:2rem;
   font-size:4rem;
 }
 
-#thank-you-text{
-  font-size:1.4rem;
+.thank-you-text{
+  font-size:1.5rem;
+}
+
+#close-thank-you-button:hover {
+  text-decoration: none;
 }
