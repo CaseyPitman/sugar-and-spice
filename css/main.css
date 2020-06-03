@@ -128,13 +128,10 @@ body {
 
 #menu-link-btn {
   background-color: #143852;
-}
-
-#menu-link {
   color: #ffcf45;
 }
 
-#menu-link:hover {
+#menu-link-btn:hover {
   color: #c3dbf4;
   text-decoration:none;
 }
