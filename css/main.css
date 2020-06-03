@@ -114,6 +114,10 @@ body {
   border: 1px solid #143852;
 }
 
+#lead{
+  font-weight:700;
+}
+
 /*Home Services*/
 #services {
   background-color: #c3dbf4;
@@ -124,11 +128,15 @@ body {
 
 #menu-link-btn {
   background-color: #143852;
+}
+
+#menu-link {
   color: #ffcf45;
 }
 
-#menu-link-btn:hover {
+#menu-link:hover {
   color: #c3dbf4;
+  text-decoration:none;
 }
 
 .services-subtitle {
