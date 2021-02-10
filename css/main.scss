@@ -1,249 +1,247 @@
 /*Define color palette variables*/
 
 $darkblue: rgb(20, 56, 82);
-$darkbluetrans: rgba(20,56,82,0.4);
-$mediumblue:rgba(51,161,189, 0.75);
-$gold:rgb(255,207,69);
-$backgroundgold:rgba(255,207,69,0.25);
-$lightblue:rgb(195,219,244);
+$darkbluetrans: rgba(20, 56, 82, 0.4);
+$mediumblue: rgba(51, 161, 189, 0.75);
+$gold: rgb(255, 207, 69);
+$backgroundgold: rgba(255, 207, 69, 0.25);
+$lightblue: rgb(195, 219, 244);
 
 /*Global*/
-html{
- width:100%;
+html {
+  width: 100%;
 }
 
 body {
- width:100%;
- font-family: 'Raleway', sans-serif;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
 }
-.dark-text{
-    color:$darkblue;
-}
-
-.script-text{
-    font-family: 'Great Vibes', cursive;
-  }
-  
-.yellow-text{
-    color:$gold;
-  }
-
-.body-text{
-    font-size:20px;
-    color:$darkblue;
+.dark-text {
+  color: $darkblue;
 }
 
-.title-text{
-    font-size:4rem;
+.script-text {
+  font-family: "Great Vibes", cursive;
 }
 
-.active-menu-link{
+.yellow-text {
+  color: $gold;
+}
+
+.body-text {
+  font-size: 20px;
+  color: $darkblue;
+}
+
+.title-text {
+  font-size: 4rem;
+}
+
+.active-menu-link {
   background-color: $mediumblue;
 }
-  
+
 /*Navbar*/
 
-.navbar{
-    background-color:$darkblue;
+.navbar {
+  background-color: $darkblue;
 }
 
 .navbar-brand,
 .nav-link,
 .navbar-toggler-icon,
 .navbar-toggler {
-    color:$gold;
+  color: $gold;
 }
 
 .navbar-brand:hover,
-.nav-link:hover{
-    color:$lightblue;
+.nav-link:hover {
+  color: $lightblue;
 }
 
 .nav-item:hover,
-.navbar-brand:hover{
-    color:$lightblue;
+.navbar-brand:hover {
+  color: $lightblue;
 }
 
-.navbar-brand{
-padding:5px;
+.navbar-brand {
+  padding: 5px;
 }
 .navbar-toggler-icon,
 .navbar-toggler,
 .toggler-button,
 .collapsed {
-  border:none;
-  margin:0;
-  padding:0;
-  background-color:$darkblue;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: $darkblue;
 }
 
 /*Home Hero Section*/
 #hero {
-  margin:56px auto 0;
-  padding:0;
-  width:100%;
-  height:auto;
-  position:relative;
+  margin: 56px auto 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 
-#home-hero-img{
-  width:100%;
+#home-hero-img {
+  width: 100%;
 }
 
-#hero-logo{
-  position:absolute;
-  top:2%;
-  left:2%;
-  padding:0 5px 5px;
-  
+#hero-logo {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  padding: 0 5px 5px;
 }
 
-.logo-title-text{
-  margin:0 auto;
-  font-size:8vw;
+.logo-title-text {
+  margin: 0 auto;
+  font-size: 8vw;
 }
 
-.logo-sub-text{
-  font-size:4.75vw;
-  margin-top:-5px;
-  padding-top:0;
+.logo-sub-text {
+  font-size: 4.75vw;
+  margin-top: -5px;
+  padding-top: 0;
 }
 
 /*Home About Section*/
 
-#about{
+#about {
   padding-bottom: 25px;
-  height:auto;
+  height: auto;
 }
 
-#self-pic{
- width:100%;
- max-width:500px;
- display:block;
- margin:auto;
- border:1px solid $darkblue;
+#self-pic {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  border: 1px solid $darkblue;
 }
 
 /*Home Services*/
-#services{
-  background-color:$lightblue;
-  height:auto;
-  border-bottom:1px solid $darkblue;
-  border-top:1px solid $darkblue;
+#services {
+  background-color: $lightblue;
+  height: auto;
+  border-bottom: 1px solid $darkblue;
+  border-top: 1px solid $darkblue;
 }
 
-#menu-link-btn{
-    background-color:$darkblue;
-    color:$gold;
+#menu-link-btn {
+  background-color: $darkblue;
+  color: $gold;
 }
 
-#menu-link-btn:hover{
-    color:$lightblue;
+#menu-link-btn:hover {
+  color: $lightblue;
 }
 
-.services-subtitle{
-font-size:2rem;
+.services-subtitle {
+  font-size: 2rem;
 }
 
 /*Home Reviews*/
-#reviews{
-    padding-bottom: 25px;
-    height:600px;
-  }
-
-.control{
-  display:none;
+#reviews {
+  padding-bottom: 25px;
+  height: 600px;
 }
 
-.carousel-inner{
-  width:100%;
+.control {
+  display: none;
 }
 
-.review-quote{
-    font-size: 22px;
+.carousel-inner {
+  width: 100%;
 }
 
-.quote-attribute{
-    font-size:28px;
+.review-quote {
+  font-size: 22px;
 }
 
-.fa-quote-left{
-  font-size:30px;
+.quote-attribute {
+  font-size: 28px;
 }
 
-.review-btn{
-  background-color:$darkblue;
-  color:$gold;
+.fa-quote-left {
+  font-size: 30px;
 }
 
-.review-btn:hover{
-  color:$lightblue;
+.review-btn {
+  background-color: $darkblue;
+  color: $gold;
 }
 
-.modal-review-title, 
+.review-btn:hover {
+  color: $lightblue;
+}
+
+.modal-review-title,
 .modal-review-attribute {
-    font-size:28px;
+  font-size: 28px;
 }
 
-.review-modal-close-btn{
-  background-color:$darkblue;
-  color:$gold;
+.review-modal-close-btn {
+  background-color: $darkblue;
+  color: $gold;
 }
 
-.review-modal-close-btn:hover{
-  color:$lightblue;
+.review-modal-close-btn:hover {
+  color: $lightblue;
 }
 
 /*Global Modal Styles*/
 .modal-content {
- background-color:$lightblue;
- color:$darkblue;
+  background-color: $lightblue;
+  color: $darkblue;
 }
 
-.modal{
-  background:rgba(33, 37, 41, 0.7);
+.modal {
+  background: rgba(33, 37, 41, 0.7);
 }
 
 /*Footer*/
-#footer{
-    background-color:$darkblue;
-    
+#footer {
+  background-color: $darkblue;
 }
 
 .footer-text {
-  font-size:20px;
+  font-size: 20px;
 }
 
-.footer-button{
-  background-color:$gold;
-  color:$darkblue;
+.footer-button {
+  background-color: $gold;
+  color: $darkblue;
 }
 
-.footer-button:hover{
-  background-color:$lightblue;
+.footer-button:hover {
+  background-color: $lightblue;
   text-decoration: none;
 }
 
-.sm-icons{
-  font-size:40px;
+.sm-icons {
+  font-size: 40px;
 }
 
-.sm-icons:hover{
-  color:$lightblue;
+.sm-icons:hover {
+  color: $lightblue;
 }
 
 .phone-number {
-  font-family: 'Roboto', sans-serif;
-  color:$gold;
+  font-family: "Roboto", sans-serif;
+  color: $gold;
 }
 
-.phone-number:hover{
-  color:$lightblue;
+.phone-number:hover {
+  color: $lightblue;
   text-decoration: none;
 }
 
-.dev-link:hover{
-  color:$lightblue;
+.dev-link:hover {
+  color: $lightblue;
   text-decoration: none;
 }
 
@@ -254,122 +252,122 @@ font-size:2rem;
 #app-menu,
 #meal-menu,
 #dessert-menu {
-  border-bottom:1px solid $darkbluetrans;
+  border-bottom: 1px solid $darkbluetrans;
 }
 
 #menu-top,
 #app-menu,
 #meal-menu,
 #dessert-menu {
-  padding-bottom:30px;
+  padding-bottom: 30px;
 }
 
-#menu-hero-logo{
-  position:absolute;
-  bottom:1%;
-  right:3%;
+#menu-hero-logo {
+  position: absolute;
+  bottom: 1%;
+  right: 3%;
 }
 
-.menu-logo-title-text{
-  margin:0 auto;
-  font-size:8vw;
+.menu-logo-title-text {
+  margin: 0 auto;
+  font-size: 8vw;
 }
 
-.menu-logo-sub-text{
-  font-size:5vw;
-  margin-top:-5px;
+.menu-logo-sub-text {
+  font-size: 5vw;
+  margin-top: -5px;
 }
 
-#menu-title{
+#menu-title {
   font-size: 3.5rem;
 }
 
-.menu-section-title{
-  font-size:3rem;
+.menu-section-title {
+  font-size: 3rem;
 }
 
-.menu-explained{
-  font-size:20px;
+.menu-explained {
+  font-size: 20px;
 }
 
-.menu-item-title{
+.menu-item-title {
   background-color: $darkblue;
-  color:$gold;
-  margin:0;
+  color: $gold;
+  margin: 0;
 }
 
-.app-menu-item{
-  background-color:rgba(195,219,244,0.25);
+.app-menu-item {
+  background-color: rgba(195, 219, 244, 0.25);
 }
 .app-choices {
-  padding:20px;
+  padding: 20px;
 }
 
-.app-menu-included{
-  background-color:$lightblue;
-  padding:20px;
+.app-menu-included {
+  background-color: $lightblue;
+  padding: 20px;
 }
 
-.meal-menu-item{
-  background-color:rgba(195,219,244,0.25);
+.meal-menu-item {
+  background-color: rgba(195, 219, 244, 0.25);
 }
 .menu-included {
-  padding:20px;
+  padding: 20px;
 }
 
-/*GALLERY PAGE*/ 
+/*GALLERY PAGE*/
 
 #gallery-title {
-  font-size:5rem;
+  font-size: 5rem;
 }
 
 .gallery-close-modal-button {
-  background-color:$darkblue;
-  color:$gold;
+  background-color: $darkblue;
+  color: $gold;
 }
 .gallery-close-modal-button:hover {
-  color:$lightblue;
+  color: $lightblue;
 }
 
 /*CONTACT PAGE*/
 
 #contact-content {
-  background-color:$lightblue;
-  border-bottom:1px solid $darkblue;
-  border-top:1px solid $darkblue;
+  background-color: $lightblue;
+  border-bottom: 1px solid $darkblue;
+  border-top: 1px solid $darkblue;
 }
 
-#contact-page-headline{
+#contact-page-headline {
   font-size: 4rem;
-  margin:20px auto;
+  margin: 20px auto;
 }
 
-.form-label{
-  font-size:1.75rem;
-  margin:10px 0;
+.form-label {
+  font-size: 1.75rem;
+  margin: 10px 0;
 }
 
-.form-submit-btn{
-  background-color:$darkblue;
-  color:$gold;
+.form-submit-btn {
+  background-color: $darkblue;
+  color: $gold;
 }
 
-.form-submit-btn:hover{
-  color:$lightblue;
+.form-submit-btn:hover {
+  color: $lightblue;
 }
 
 /*THANK YOU PAGE*/
 
-#thank-you-note{
+#thank-you-note {
   background-color: $lightblue;
 }
 
 #thank-you-headline {
-  font-size:4rem;
+  font-size: 4rem;
 }
 
-.thank-you-text{
-  font-size:1.5rem;
+.thank-you-text {
+  font-size: 1.5rem;
 }
 
 #close-thank-you-button:hover {

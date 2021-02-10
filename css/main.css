@@ -5,7 +5,7 @@ html {
 
 body {
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .dark-text {
@@ -13,7 +13,7 @@ body {
 }
 
 .script-text {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 .yellow-text {
@@ -114,9 +114,9 @@ body {
   border: 1px solid #143852;
 }
 
-#lead{
-  font-weight:700;
-  font-size:2.2rem;
+#lead {
+  font-weight: 700;
+  font-size: 2.2rem;
 }
 
 /*Home Services*/
@@ -134,7 +134,7 @@ body {
 
 #menu-link-btn:hover {
   color: #c3dbf4;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .services-subtitle {
@@ -228,7 +228,7 @@ body {
 }
 
 .phone-number {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #ffcf45;
 }
 
